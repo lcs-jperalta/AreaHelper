@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    func areaOfRectangle (length: Double, width: Double) -> Double {
+        return length * width
+    }
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
