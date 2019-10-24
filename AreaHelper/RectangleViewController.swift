@@ -24,9 +24,29 @@ class RectangleViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    func areaOfRectangle (length: Double, width: Double) -> Double {
-        return length * width
+    @IBAction func getArea(_ sender: Any) {
+        guard let lengthText = submittedLength.text, lengthText != "" else {
+            print("Please enter the numbers for length or width.")
+            return
+        }
+        
+        guard let lengthNumber = Int(lengthText) else {
+            print("Please enter a number.")
+            return
+        }
+        guard let widthText = submittedWidth.text, lengthText != "" else {
+            print("Please enter the numbers for length or width.")
+            return
+        }
+        
+        guard let widthNumber = Int(widthText) else {
+            print("Please enter a number.")
+            return
+        }
+        let areaOfRectangle = widthNumber * lengthNumber
+        print(areaOfRectangle)
     }
+    
     
     
 

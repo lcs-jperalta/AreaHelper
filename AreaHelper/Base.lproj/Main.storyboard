@@ -44,6 +44,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Get Area"/>
+                                <connections>
+                                    <action selector="getArea:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="Vxl-2g-6RU"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(number)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KH7-Ns-LqS">
                                 <rect key="frame" x="161" y="195" width="97" height="30"/>
