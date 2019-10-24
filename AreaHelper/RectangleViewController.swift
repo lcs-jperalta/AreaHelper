@@ -8,7 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RectangleViewController: UIViewController {
+    // MARK: Properties
+    @IBOutlet weak var submittedLength: UITextField!
+    @IBOutlet weak var submittedWidth: UITextField!
+    
+    
+    // MARK: Initializers
+    
+    
+    // MARK: Methods (functions)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,8 +28,7 @@ class ViewController: UIViewController {
         return length * width
     }
     
-    let lengthInput = UITextView()
-    let widthInput = UITextView()
+    
 
 }
 
