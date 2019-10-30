@@ -87,6 +87,7 @@
                                 <state key="normal" title="Get Area"/>
                                 <connections>
                                     <action selector="getArea:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="ADJ-7y-e2Q"/>
+                                    <action selector="getArea:" destination="vSI-0e-Qek" eventType="touchUpInside" id="alw-W2-Sgw"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Area: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECh-8y-mb6">
@@ -106,6 +107,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="AgZ-YF-92b"/>
+                        <connections>
+                            <outlet property="resultArea" destination="neL-Nc-Sci" id="QWp-sz-zCy"/>
+                            <outlet property="submittedLength" destination="yZd-cJ-q3W" id="tFf-NM-Rqg"/>
+                            <outlet property="submittedWidth" destination="jds-fs-9Xp" id="U6s-aQ-EPx"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ve2-jX-dtV" userLabel="First Responder" sceneMemberID="firstResponder"/>
