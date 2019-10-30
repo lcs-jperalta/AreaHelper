@@ -26,6 +26,14 @@
                                     <action selector="Buttontotaketoareaofrectangle:" destination="078-E9-LTI" eventType="touchUpInside" id="Ldy-hk-4PJ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zq1-aX-ZHM">
+                                <rect key="frame" x="98" y="372" width="93" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Area of Circle"/>
+                                <connections>
+                                    <segue destination="vgo-pU-jWc" kind="show" id="nhB-SF-j6Y"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6VY-Zw-aQT"/>
