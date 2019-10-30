@@ -9,10 +9,11 @@
 import UIKit
 
 class RectangleViewController: UIViewController {
+    // MARK: Properties
+    @IBOutlet weak var submittedLength: UITextField!
     
     // MARK: Initializers
     
-    @IBOutlet weak var submittedLength: UITextField!
     
     // MARK: Methods (functions)
     
@@ -28,30 +29,30 @@ class RectangleViewController: UIViewController {
 //            resultArea.text = ("Please enter the numbers for length or width.")
 //            return
 //        }
-//        
+//
 //        // Tests if the text field contains something other than a number (letters, symbols), and if it does, it gives off an error message
 //        // Converts the string into a double
 //        guard let lengthNumber = Double(lengthText) else {
 //            resultArea.text = ("Please enter a number.")
 //            return
 //        }
-//        
+//
 //        // Tests if the text field contains an empty string, and if it does, it gives off an error message
 //        // Converts the number into a string
 //        guard let widthText = submittedWidth.text, lengthText != "" else {
 //            resultArea.text = ("Please enter the numbers for length or width.")
 //            return
 //        }
-//        
+//
 //        // Tests if the text field contains something other than a number (letters, symbols), and if it does, it gives off an error message
 //        // Converts the string into a double
 //        guard let widthNumber = Double(widthText) else {
 //            resultArea.text = ("Please enter a number.")
 //            return
 //        }
-//        
+//
 //        let areaOfRectangle = widthNumber * lengthNumber
-//        
+//
 //        // Show the total area of the rectangle
 //        resultArea.text = String(areaOfRectangle)
         
