@@ -39,7 +39,7 @@ class CircleViewController: UIViewController {
         
         let areaOfCircle = radiusNumber * Double.pi
         
-        // Show the total area of the rectangle
+        // Show the total area of the circle
         resultArea.text = String(areaOfCircle)
         
     }

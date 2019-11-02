@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A24EC681236E27EE008ED694 /* RectangularPrismViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24EC680236E27EE008ED694 /* RectangularPrismViewController.swift */; };
 		A260C99123613C1A008FA396 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A260C99023613C1A008FA396 /* MainViewController.swift */; };
 		A26BCDFF2357E90A0091614A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BCDFE2357E90A0091614A /* AppDelegate.swift */; };
 		A26BCE012357E90A0091614A /* RectangleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BCE002357E90A0091614A /* RectangleViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A24EC680236E27EE008ED694 /* RectangularPrismViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularPrismViewController.swift; sourceTree = "<group>"; };
 		A260C99023613C1A008FA396 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A26BCDFB2357E90A0091614A /* AreaHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreaHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26BCDFE2357E90A0091614A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				A26BCE0A2357E90D0091614A /* Info.plist */,
 				A260C99023613C1A008FA396 /* MainViewController.swift */,
 				A2A3646C236A1B460048EEDD /* CircleViewController.swift */,
+				A24EC680236E27EE008ED694 /* RectangularPrismViewController.swift */,
 			);
 			path = AreaHelper;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				A26BCE012357E90A0091614A /* RectangleViewController.swift in Sources */,
 				A2A3646D236A1B460048EEDD /* CircleViewController.swift in Sources */,
 				A26BCDFF2357E90A0091614A /* AppDelegate.swift in Sources */,
+				A24EC681236E27EE008ED694 /* RectangularPrismViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
